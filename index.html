@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DonateForPoorKids – helping underprivileged children with food, education, healthcare and hope in Jaipur, Rajasthan." />
+  <meta name="keywords" content="NGO, donate, children, poor kids, Jaipur, education, food, charity, India" />
+  <meta name="author" content="DonateForPoorKids" />
+  <meta property="og:title" content="DonateForPoorKids – Together We Can Change Lives" />
+  <meta property="og:description" content="Every donation helps provide food, education, clothing and hope to children in need." />
+  <meta property="og:type" content="website" />
+  <title>DonateForPoorKids – Together We Can Change Lives</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader" role="status" aria-label="Loading">
+    <div class="loader-inner">
+      <div class="loader-heart"><i class="fas fa-heart"></i></div>
+      <p>Loading…</p>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <header id="navbar" role="banner">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="DonateForPoorKids home">
+        <span class="logo-icon"><i class="fas fa-hands-holding-heart"></i></span>
+        <span class="logo-text">Donate<span>ForPoorKids</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#causes">Causes</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#donate" class="nav-cta">Donate Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════ 1. HERO ═══════════ -->
+    <section id="home" class="hero" aria-label="Hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-particles" id="particles"></div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow animate-fade-up">Making a Difference Since 2018</p>
+        <h1 class="animate-fade-up delay-1">Together We Can<br /><span class="hero-accent">Change Lives</span></h1>
+        <p class="hero-sub animate-fade-up delay-2">Every donation helps provide food, education, clothing and hope<br class="hide-mobile" /> to children in need.</p>
+        <div class="hero-btns animate-fade-up delay-3">
+          <a href="#donate" class="btn btn-primary">
+            <i class="fas fa-heart"></i> Donate Now
+          </a>
+          <a href="#about" class="btn btn-outline">
+            <i class="fas fa-chevron-down"></i> Learn More
+          </a>
+        </div>
+        <div class="hero-stats animate-fade-up delay-4">
+          <div class="h-stat"><strong>5,000+</strong><span>Kids Helped</span></div>
+          <div class="h-stat-divider"></div>
+          <div class="h-stat"><strong>₹40L+</strong><span>Raised</span></div>
+          <div class="h-stat-divider"></div>
+          <div class="h-stat"><strong>200+</strong><span>Volunteers</span></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ═══════════ 2. ABOUT ═══════════ -->
+    <section id="about" class="section about-section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Who We Are</span>
+          <h2 id="about-title">Giving Every Child a Fair Chance</h2>
+          <p class="section-sub">DonateForPoorKids is a grassroots NGO based in Jaipur, working to uplift the lives of underprivileged children through sustainable, community-driven programmes.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <div class="about-img-wrap">
+              <svg class="about-svg-bg" viewBox="0 0 400 400" aria-hidden="true">
+                <circle cx="200" cy="200" r="200" fill="#0F4C81" opacity="0.08"/>
+              </svg>
+              <div class="about-icon-big"><i class="fas fa-child"></i></div>
+            </div>
+            <div class="about-badge">
+              <i class="fas fa-award"></i>
+              <div><strong>Award Winning</strong><span>Best NGO Rajasthan 2024</span></div>
+            </div>
+          </div>
+          <div class="about-cards">
+            <div class="glass-card reveal delay-1">
+              <div class="card-icon mission"><i class="fas fa-bullseye"></i></div>
+              <h3>Our Mission</h3>
+              <p>To ensure every underprivileged child in Rajasthan has access to nutritious food, quality education, adequate clothing, and compassionate healthcare — no exceptions.</p>
+            </div>
+            <div class="glass-card reveal delay-2">
+              <div class="card-icon vision"><i class="fas fa-eye"></i></div>
+              <h3>Our Vision</h3>
+              <p>A future where no child goes to bed hungry or grows up without education — where poverty is never a barrier to potential.</p>
+            </div>
+            <div class="glass-card reveal delay-3">
+              <div class="card-icon why"><i class="fas fa-question-circle"></i></div>
+              <h3>Why We Exist</h3>
+              <p>Millions of Indian children still lack basics. We fill that gap — one family, one meal, one school kit at a time — with full transparency and accountability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 3. IMPACT ═══════════ -->
+    <section id="impact" class="section impact-section" aria-labelledby="impact-title">
+      <div class="impact-bg-shape" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow light">Our Impact</span>
+          <h2 id="impact-title" class="light">Numbers That Speak</h2>
+          <p class="section-sub light">Real results from real people — see what your generosity has made possible.</p>
+        </div>
+        <div class="counters-grid">
+          <div class="counter-card reveal">
+            <div class="counter-icon"><i class="fas fa-child"></i></div>
+            <span class="counter" data-target="5200">0</span>
+            <p>Children Helped</p>
+          </div>
+          <div class="counter-card reveal delay-1">
+            <div class="counter-icon"><i class="fas fa-utensils"></i></div>
+            <span class="counter" data-target="120000">0</span>
+            <p>Meals Distributed</p>
+          </div>
+          <div class="counter-card reveal delay-2">
+            <div class="counter-icon"><i class="fas fa-book"></i></div>
+            <span class="counter" data-target="3800">0</span>
+            <p>Education Kits Provided</p>
+          </div>
+          <div class="counter-card reveal delay-3">
+            <div class="counter-icon"><i class="fas fa-hands-helping"></i></div>
+            <span class="counter" data-target="220">0</span>
+            <p>Volunteers Joined</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 4. CAUSES ═══════════ -->
+    <section id="causes" class="section causes-section" aria-labelledby="causes-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">What We Do</span>
+          <h2 id="causes-title">Our Causes</h2>
+          <p class="section-sub">Every rupee you contribute is directed to one of these vital programmes for children in need.</p>
+        </div>
+        <div class="causes-grid">
+          <article class="cause-card reveal" aria-label="Education Support">
+            <div class="cause-img education">
+              <div class="cause-img-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div class="cause-overlay"></div>
+            </div>
+            <div class="cause-body">
+              <span class="cause-tag">Education</span>
+              <h3>Education Support</h3>
+              <p>We provide school supplies, uniforms, stationery and tuition fees for children who cannot afford education. Learning is the most powerful tool against poverty.</p>
+              <div class="cause-progress">
+                <div class="prog-labels"><span>Raised ₹3.2L</span><span>Goal ₹5L</span></div>
+                <div class="prog-bar"><div class="prog-fill" data-width="64"></div></div>
+              </div>
+              <a href="#donate" class="btn btn-cause">Donate <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="cause-card reveal delay-1" aria-label="Food Distribution">
+            <div class="cause-img food">
+              <div class="cause-img-icon"><i class="fas fa-utensils"></i></div>
+              <div class="cause-overlay"></div>
+            </div>
+            <div class="cause-body">
+              <span class="cause-tag">Nutrition</span>
+              <h3>Food Distribution</h3>
+              <p>Our daily meal drives ensure no child sleeps hungry. We distribute nutritious meals to over 500 children every single day across Jaipur's underserved communities.</p>
+              <div class="cause-progress">
+                <div class="prog-labels"><span>Raised ₹4.1L</span><span>Goal ₹6L</span></div>
+                <div class="prog-bar"><div class="prog-fill" data-width="68"></div></div>
+              </div>
+              <a href="#donate" class="btn btn-cause">Donate <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="cause-card reveal delay-2" aria-label="Healthcare Support">
+            <div class="cause-img health">
+              <div class="cause-img-icon"><i class="fas fa-stethoscope"></i></div>
+              <div class="cause-overlay"></div>
+            </div>
+            <div class="cause-body">
+              <span class="cause-tag">Health</span>
+              <h3>Healthcare Support</h3>
+              <p>Regular health camps, vaccinations, dental check-ups and medicines — because a healthy child learns better and dreams bigger. Prevention is our priority.</p>
+              <div class="cause-progress">
+                <div class="prog-labels"><span>Raised ₹2.5L</span><span>Goal ₹4L</span></div>
+                <div class="prog-bar"><div class="prog-fill" data-width="62"></div></div>
+              </div>
+              <a href="#donate" class="btn btn-cause">Donate <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="cause-card reveal delay-3" aria-label="Clothing Donation">
+            <div class="cause-img clothing">
+              <div class="cause-img-icon"><i class="fas fa-tshirt"></i></div>
+              <div class="cause-overlay"></div>
+            </div>
+            <div class="cause-body">
+              <span class="cause-tag">Clothing</span>
+              <h3>Clothing Donation</h3>
+              <p>Seasonal clothing drives distribute warm jackets, school uniforms, shoes and blankets to children facing harsh Rajasthan summers and winters without protection.</p>
+              <div class="cause-progress">
+                <div class="prog-labels"><span>Raised ₹1.8L</span><span>Goal ₹3L</span></div>
+                <div class="prog-bar"><div class="prog-fill" data-width="60"></div></div>
+              </div>
+              <a href="#donate" class="btn btn-cause">Donate <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 5. DONATION ═══════════ -->
+    <section id="donate" class="section donate-section" aria-labelledby="donate-title">
+      <div class="donate-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Give Today</span>
+          <h2 id="donate-title">Support a Child Today</h2>
+          <p class="section-sub">Your generosity—big or small—transforms a child's tomorrow. Every rupee reaches the child directly.</p>
+        </div>
+        <div class="donate-wrapper">
+          <div class="donate-appeal glass-card reveal">
+            <h3><i class="fas fa-quote-left"></i></h3>
+            <blockquote>
+              "One meal can keep a child in school. One school kit can change a family's destiny. Your donation is not charity — it's an investment in India's future."
+            </blockquote>
+            <cite>— Sunita Sharma, Founder</cite>
+            <ul class="what-your-donation">
+              <li><i class="fas fa-check-circle"></i> ₹100 feeds a child for a week</li>
+              <li><i class="fas fa-check-circle"></i> ₹500 provides a full education kit</li>
+              <li><i class="fas fa-check-circle"></i> ₹1000 covers a medical check-up</li>
+              <li><i class="fas fa-check-circle"></i> ₹2000 clothes a child for a season</li>
+            </ul>
+          </div>
+
+          <div class="donate-details glass-card reveal delay-1">
+            <h3>Bank Transfer Details</h3>
+            <div class="bank-row">
+              <span class="bank-label">Account Number</span>
+              <span class="bank-val" id="accNum">0054549623</span>
+              <button class="copy-btn" onclick="copyText('accNum', this)" aria-label="Copy account number"><i class="fas fa-copy"></i></button>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label">IFSC Code</span>
+              <span class="bank-val" id="ifscCode">KKBK0003538</span>
+              <button class="copy-btn" onclick="copyText('ifscCode', this)" aria-label="Copy IFSC code"><i class="fas fa-copy"></i></button>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label">Bank</span>
+              <span class="bank-val">Kotak Mahindra Bank</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label">Account Name</span>
+              <span class="bank-val">DonateForPoorKids</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label">Phone / UPI</span>
+              <span class="bank-val">+91 9257853305</span>
+            </div>
+
+            <div class="qr-both-wrap">
+              <div class="qr-placeholder" aria-label="UPI QR Code">
+                <div class="qr-inner">
+                  <img src="images/upi.jpeg" alt="UPI QR Code - naveenkumar65083-3@okaxis" width="160" height="160" style="border-radius:10px; display:block;" />
+                  <p><i class="fas fa-mobile-alt"></i> Scan to Pay via UPI</p>
+                  <span class="qr-id">naveenkumar65083-3@okaxis</span>
+                </div>
+              </div>
+              <div class="qr-placeholder" aria-label="Telegram QR Code">
+                <div class="qr-inner">
+                  <img src="images/telegram.jpeg" alt="Telegram QR Code - donateforpoor Kids" width="160" height="160" style="border-radius:10px; display:block;" />
+                  <p><i class="fab fa-telegram-plane"></i> Scan to connect on Telegram</p>
+                  <span class="qr-id">donateforpoor Kids</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="tel:+919257853305" class="btn btn-primary btn-full">
+              <i class="fas fa-phone-alt"></i> Call to Donate: +91 9257853305
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 6. GALLERY ═══════════ -->
+    <section id="gallery" class="section gallery-section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Our Moments</span>
+          <h2 id="gallery-title">Gallery of Hope</h2>
+          <p class="section-sub">Glimpses of joy, resilience and change — captured from the field.</p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- JS generated cards -->
+        </div>
+      </div>
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" style="display:none">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <div class="lightbox-img-wrap">
+          <div id="lightboxImg" class="lightbox-svg-display"></div>
+          <p id="lightboxCaption" class="lightbox-caption"></p>
+        </div>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+    <!-- ═══════════ 7. TESTIMONIALS ═══════════ -->
+    <section id="testimonials" class="section testimonials-section" aria-labelledby="test-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Voices of Hope</span>
+          <h2 id="test-title">What Donors Say</h2>
+          <p class="section-sub">Hear from the generous hearts who are making a difference every day.</p>
+        </div>
+        <div class="test-carousel">
+          <div class="test-track" id="testTrack">
+            <div class="test-card">
+              <div class="test-avatar" data-initials="RS"></div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"I've donated to many NGOs but DonateForPoorKids stands out for their transparency. I can see exactly how my money is used — real photos, real updates. Truly inspiring work."</p>
+              <cite><strong>Rajesh Sharma</strong> — IT Professional, Jaipur</cite>
+            </div>
+            <div class="test-card">
+              <div class="test-avatar" data-initials="PM"></div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"Monthly contributions feel small, but seeing 5,000 children being helped reminds me every rupee counts. The team responds personally to every donor. Heartwarming."</p>
+              <cite><strong>Priya Mehta</strong> — Teacher, Udaipur</cite>
+            </div>
+            <div class="test-card">
+              <div class="test-avatar" data-initials="AK"></div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"I volunteered for their food drive in Govindpuri — the smiles on those children's faces are something I'll carry forever. This NGO does real ground-level work."</p>
+              <cite><strong>Ankur Kumar</strong> — Volunteer, Delhi</cite>
+            </div>
+            <div class="test-card">
+              <div class="test-avatar" data-initials="SV"></div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"DonateForPoorKids helped fund my nephew's education after my brother passed away. They gave him a future. I will support them for the rest of my life."</p>
+              <cite><strong>Savita Verma</strong> — Homemaker, Jaipur</cite>
+            </div>
+            <div class="test-card">
+              <div class="test-avatar" data-initials="MA"></div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"Our company donated as part of CSR. The team was professional, the receipts came immediately, and the impact report they sent us was detailed and moving."</p>
+              <cite><strong>Mohammed Arif</strong> — Business Owner, Ajmer</cite>
+            </div>
+          </div>
+          <div class="test-controls">
+            <button class="test-btn" id="testPrev" aria-label="Previous testimonial"><i class="fas fa-arrow-left"></i></button>
+            <div class="test-dots" id="testDots"></div>
+            <button class="test-btn" id="testNext" aria-label="Next testimonial"><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CTA BAND ═══════════ -->
+    <section class="cta-band" aria-label="Call to action">
+      <div class="container cta-inner reveal">
+        <div>
+          <h2>Every Second, a Child Needs You</h2>
+          <p>Don't wait — your action today shapes a child's tomorrow.</p>
+        </div>
+        <a href="#donate" class="btn btn-accent btn-lg">
+          <i class="fas fa-heart"></i> Donate Now
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════ 8. VOLUNTEER ═══════════ -->
+    <section id="volunteer" class="section volunteer-section" aria-labelledby="vol-title">
+      <div class="container">
+        <div class="vol-grid">
+          <div class="vol-info reveal">
+            <span class="eyebrow">Get Involved</span>
+            <h2 id="vol-title">Become a Volunteer</h2>
+            <p>You don't need money to make a difference — your time, skills and passion can transform lives. Join our growing family of 200+ volunteers across Rajasthan.</p>
+            <ul class="vol-perks">
+              <li><i class="fas fa-check"></i> Flexible scheduling — weekend & evening options</li>
+              <li><i class="fas fa-check"></i> Certificate of volunteering</li>
+              <li><i class="fas fa-check"></i> Real community impact</li>
+              <li><i class="fas fa-check"></i> Network with like-minded changemakers</li>
+            </ul>
+          </div>
+          <div class="vol-form-wrap reveal delay-1">
+            <form class="vol-form glass-card" id="volunteerForm" novalidate aria-label="Volunteer registration form">
+              <h3>Register as a Volunteer</h3>
+              <div class="form-group">
+                <label for="volName">Full Name *</label>
+                <input type="text" id="volName" name="name" placeholder="Your full name" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="volEmail">Email *</label>
+                <input type="email" id="volEmail" name="email" placeholder="your@email.com" required autocomplete="email" />
+              </div>
+              <div class="form-group">
+                <label for="volPhone">Mobile Number *</label>
+                <input type="tel" id="volPhone" name="phone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="volMsg">Message</label>
+                <textarea id="volMsg" name="message" rows="3" placeholder="Tell us about yourself or how you'd like to help…"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-hands-helping"></i> Join as Volunteer
+              </button>
+              <p class="form-note">We'll reach out within 48 hours.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 9. CONTACT ═══════════ -->
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Reach Us</span>
+          <h2 id="contact-title">Get In Touch</h2>
+          <p class="section-sub">Have questions, want to collaborate, or need more information? We're here for you.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-card glass-card">
+              <h3>DonateForPoorKids</h3>
+              <div class="contact-row">
+                <i class="fas fa-map-marker-alt"></i>
+                <address>11 Mahaveer Swami Colony, Govindpuri,<br />Jaipur – 302015, Rajasthan, India</address>
+              </div>
+              <div class="contact-row">
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+919257853305">+91 9257853305</a>
+              </div>
+              <div class="contact-row">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@donatefpoorerkids.org">info@donateforpoorkids.org</a>
+              </div>
+              <div class="contact-socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+            <!-- Map embed -->
+            <div class="map-wrap reveal delay-1">
+              <iframe
+                title="DonateForPoorKids location on Google Maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.8!2d75.7873!3d26.9124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db40001234567%3A0xabcdef1234567890!2sGovindpuri%2C%20Jaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1700000000000"
+                width="100%" height="220" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal delay-2">
+            <form class="contact-form glass-card" id="contactForm" novalidate aria-label="Contact form">
+              <h3>Send a Message</h3>
+              <div class="form-group">
+                <label for="cName">Name *</label>
+                <input type="text" id="cName" name="name" placeholder="Your name" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="cEmail">Email *</label>
+                <input type="email" id="cEmail" name="email" placeholder="your@email.com" required autocomplete="email" />
+              </div>
+              <div class="form-group">
+                <label for="cMsg">Message *</label>
+                <textarea id="cMsg" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,0 L0,0 Z" fill="#F8F9FA"/></svg>
+    </div>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo" aria-label="DonateForPoorKids">
+          <span class="logo-icon"><i class="fas fa-hands-holding-heart"></i></span>
+          <span class="logo-text">Donate<span>ForPoorKids</span></span>
+        </a>
+        <p>Committed to giving every underprivileged child in Rajasthan a chance at life, education and dignity.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#impact">Our Impact</a></li>
+          <li><a href="#causes">Causes</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Donation Info</h4>
+        <ul>
+          <li><i class="fas fa-university"></i> Kotak Mahindra Bank</li>
+          <li><i class="fas fa-hashtag"></i> A/C: 0054549623</li>
+          <li><i class="fas fa-code-branch"></i> IFSC: KKBK0003538</li>
+          <li><i class="fas fa-phone-alt"></i> +91 9257853305</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Address</h4>
+        <address>
+          11 Mahaveer Swami Colony,<br />
+          Govindpuri,<br />
+          Jaipur – 302015,<br />
+          Rajasthan, India
+        </address>
+        <a href="tel:+919257853305" class="btn btn-accent btn-sm mt-1">
+          <i class="fas fa-phone-alt"></i> Call Us
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 DonateForPoorKids. All Rights Reserved. Made with <i class="fas fa-heart" style="color:#F4B400"></i> in Jaipur, India.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
